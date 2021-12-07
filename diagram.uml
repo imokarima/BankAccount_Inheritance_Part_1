@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/sauvageb/Desktop/CEFIM_CDA/BankAccount/src</OriginalElement>
+  <nodes>
+    <node x="203.0" y="305.0">com.exercice.bankaccount.model.SavingAccount</node>
+    <node x="103.0" y="-156.0">com.exercice.bankaccount.model.BankAccount</node>
+    <node x="-6.0" y="305.0">com.exercice.bankaccount.model.PayingAccount</node>
+    <node x="-162.0" y="142.0">com.exercice.bankaccount.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.exercice.bankaccount.model.SavingAccount" target="com.exercice.bankaccount.model.BankAccount" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="302.5" y="280.0" />
+      <point x="201.5" y="280.0" />
+      <point x="0.0" y="127.5" />
+    </edge>
+    <edge source="com.exercice.bankaccount.model.PayingAccount" target="com.exercice.bankaccount.model.BankAccount" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="88.5" y="280.0" />
+      <point x="201.5" y="280.0" />
+      <point x="0.0" y="127.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="179.5" y="194.0" />
+  <SelectedNodes>
+    <node>com.exercice.bankaccount.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
